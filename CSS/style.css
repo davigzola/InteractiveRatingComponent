@@ -10,7 +10,7 @@ body {
     height: 580px;
 }
 
-#estrela {
+#star {
     position: absolute;
     padding: 50px 0px 0px 40px;
     margin: 30px 0px 0px 30px;
@@ -18,11 +18,11 @@ body {
     height: 20px;
 }
 
-.space {
+#space-circle {
     padding-top: 60px;
 }
 
-.circle {
+#circle {
     margin-left: 50px;
     margin-bottom: 50px;
     background-color: hsl(0, 0%, 100%);
@@ -32,7 +32,7 @@ body {
     opacity: 5%;
 }
 
-.title {
+#title {
     text-align: left;
     font-weight: bold;
     padding-left: 40px;
@@ -42,12 +42,12 @@ body {
     font-family: 'Overpass', sans-serif;
 }
 
-.sub-title {
+#sub-title {
     text-align: left;
     padding-left: 40px;
     margin-bottom: 30px;
     width: 500px;
-    color: gray;
+    color: hsl(216, 12%, 54%);
     font-size: 20px;
     font-family: 'Overpass', sans-serif;
     letter-spacing: 1px;
@@ -114,5 +114,60 @@ label {
     background-color: white;
     color: hsl(25, 97%, 53%);
 }
+
+/* Modificações da página de "Thank You" */
+
+#results-image {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    top: 80px;
+    left: 160px; 
+}
+
+#results-text {
+    display: inline-block;
+    position: relative;
+    top: 140px;
+    right: 80px;
+    color: hsl(25, 97%, 53%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    background-color: hsl(0, 0%, 100%, 5%);
+    padding: 15px 20px;
+    border-radius: 50px;
+}
+
+.ty-text {
+    display: block;
+    position: relative;
+    top: 190px;
+    text-align: center;
+}
+
+#ty-title {
+    position: relative;
+    width: 510px;
+    left: 210px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+#ty-subtitle {
+    position: relative;
+    left: 40px;
+    width: 510px;
+    font-size: 20px;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+    padding-left: 0px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
 
 

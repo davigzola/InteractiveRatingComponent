@@ -129,7 +129,7 @@ label {
     display: inline-block;
     position: relative;
     top: 140px;
-    right: 80px;
+    right: 75px;
     color: hsl(25, 97%, 53%);
     font-family: 'Overpass', sans-serif;
     font-size: 20px;
@@ -168,6 +168,7 @@ label {
     letter-spacing: 1px;
     line-height: 25px;
 }
+
 
 
 

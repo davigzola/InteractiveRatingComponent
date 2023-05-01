@@ -1,7 +1,6 @@
 var grades = document.querySelector(".grades");
-var frase = document.querySelector("#results-text");
 
-function choosenGrade() {
+grades.onchange = ()=> {
     var selectedGrade = document.querySelector("input[type = radio]:checked").value;
-    return selectedGrade;
+    sessionStorage.setItem("selectedGrade",  selectedGrade);
 }

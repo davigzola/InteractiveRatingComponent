@@ -3,9 +3,12 @@ body {
 }
 
 .box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
     border-radius: 10%;
-    margin: 180px auto;
     width: 600px;
     height: 580px;
 }
@@ -168,7 +171,3 @@ label {
     letter-spacing: 1px;
     line-height: 25px;
 }
-
-
-
-
